@@ -2,6 +2,7 @@
 
 * wf_urlCat.py
 
+'''
 $ ./wf_urlCat.py
 
 -------------------------------------------------------------------------------
@@ -54,3 +55,5 @@ Categorization menu
 2. URL file categorization
 3. URL crawl and categorize
 =>:
+
+'''
