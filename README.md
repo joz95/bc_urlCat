@@ -1,4 +1,4 @@
-# Webfilter URL categorization
+# URL categorization
 
 * wf_urlCat.py
 
