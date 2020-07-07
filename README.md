@@ -17,8 +17,7 @@ The script will categorize URLs against all enabled categorization providers.
 Show categorization for given URL.
 
 2. URL file categorization:
-Show categorization for each URL inside the provided URL file. URLs in file
-must be one per line.
+Show categorization for each URL in file. URLs in file must be one per line.
 
 3. URL crawl and categorize:
 Show categorization for given URL and related categories from URLs contained
@@ -27,7 +26,7 @@ in given URL.
 
 Proxy ip address:        <proxy_ip_addr>                     
 Proxy user name:         <uid>
-User password (hiden):   <passwd>
+User password (hidden):  <passwd>
 
 [+] connecting ... (5s timeout)
 [+] connected and authenticated to <proxy_ip_addr>

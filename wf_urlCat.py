@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 '''
 GNU GENERAL PUBLIC LICENSE v3
-
-
 Copyright (C) <2016> JOSE (J) MARCOS <jm4rcos@gmail.com>
 
 This program  is free software:  you  can redistribute it and/or modify it under
@@ -100,11 +98,11 @@ def proxy_get_login_info():
         pwd_mgr.add_password(None, proxy_ip + ':8082', proxy_u, proxy_p)
 
     except ValueError, Err:
-        print '\n', err
+        print '\n', Err
         exit()
 
     except netaddr.core.AddrFormatError, Err:
-        print '\n[-] Err:', err
+        print '\n[-] Err:', Err
         exit()
 
     except KeyboardInterrupt, Err:
